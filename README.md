@@ -2,7 +2,8 @@
 1、先npm install安装webpack依赖<br/>
 2、npm run dev-server 可以热部署（>IE8），也可以npm run dev或者npm run deploy直接编译(>=IE8)<br/>
 
-遇到的问题：
+遇到的问题：<br/>
+
 1、因为1.5X语法变更，与avalon1.5x搭配的时候需要修改mmState.js
 <pre>
 var Event = window.$eventManager = avalon.define("$eventManager", function (vm) {
