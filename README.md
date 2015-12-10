@@ -1,7 +1,7 @@
 #ehr
 <pre>
 1、先npm install安装webpack依赖<br/>
-2、npm run dev-server 可以热部署（>IE8），也可以npm run dev或者npm run deploy直接编译(>=IE8)<br/>
+2、npm run dev-server 可以热部署（IE8下不能实时更新，每次更新代码后必须X掉网页重新进入），也可以npm run dev或者npm run deploy直接编译<br/>
 </pre>
 遇到的问题：<br/>
 
