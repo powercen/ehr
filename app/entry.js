@@ -5,7 +5,7 @@ require("mmStateDemand");
 require('domReady')(function () {
     avalon.define({
         $id: "dm",
-        ver: 1
+        ver: 1.1
     });
     require('./route.js');
     avalon.scan();
